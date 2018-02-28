@@ -3,10 +3,22 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-<title>Insert title here</title>
-</head>
+	<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+	<title>Insert title here</title>
+	</head>	
+	
 <body>
-
+	<header>
+		<h1 border"2" align="center">index</h1>
+	</header>
+<%-- 	<%
+		String sId=(String)(session.getAttribute("sId"));
+		System.out.println(sId+""<--sId");
+		if(sId == null) {
+			%>	
+		<% include file="/Login/LoginForm.jsp"%> 
+		}
+		%>
+	 --%>
 </body>
 </html>
